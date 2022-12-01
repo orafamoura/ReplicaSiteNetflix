@@ -1,0 +1,18 @@
+.content .filmes img {
+  height: 150px;
+  display: flex;
+  border-radius: .5rem;
+}
+
+.filmes {
+  list-style: none;
+  margin-inline: -1rem;
+}
+
+.content .movieTopics {
+  color: white;
+}
+
+.categories {
+  font-size: 0.8rem;
+}

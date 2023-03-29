@@ -6,13 +6,21 @@
 
 .filmes {
   list-style: none;
-  margin-inline: -1rem;
+  margin: 0 0;
+  margin-bottom: 40px;
+  padding: 0 0px;
 }
 
 .content .movieTopics {
   color: white;
+  box-sizing: border-box;
+  padding-left: 20px;
+  position: relative;
+
 }
 
 .categories {
-  font-size: 0.8rem;
+  font-size: 1rem;
+  font-family: sans-serif;
+  margin-bottom: 9px;
 }

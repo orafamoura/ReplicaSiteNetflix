@@ -1,0 +1,51 @@
+requisição HTTP
+
+URL: https://pokeapi.co/api/v2/pokemon
+      ${IP}/S{path= caminho de identificação de recurso}
+
+      IP: https://pokeapi.co
+        http://127.0.0.1:8080
+
+        request method : GET / POST / PUT / DELETE 
+
+GET> BUSCAR O RECURSO
+POST> INSERIR UM NOVO RECURSO
+PUT> ATUALIZAR O RECURSO
+DELETE> EXCLUIR UM RECURSO
+----------------------------------------------------------------------------------
+
+URL: https://pokeapi.co/api/v2/pokemon?type=grass&name=i
+
+query string, chave e valor
+
+?type=grass&name=i
+type = grass
+name = i...
+----------------------------------------------------------------------------------
+request headers
+configuração
+accept language:
+pt-BR;q=1
+pt;q=0.9
+en-US;q=0.8
+en;q=0.7
+authorization: basic, bearer etc
+
+response headers
+configuração
+----------------------------------------------------------------------------------
+
+request headers pra post, put, delete etc...
+content-type: application/json
+
+request body
+{
+"name": "qqr coisa"
+}
+----------------------------------------------------------------------------------
+na requisição precisa da URL, request method, request headers, request body
+
+STATUS CODE: 200 OK
+
+response headers
+response body

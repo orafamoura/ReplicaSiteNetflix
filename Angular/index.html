@@ -9,21 +9,19 @@
   
   <link rel="stylesheet" href="assets/styles/css/card.css">
   <script src="src/components/CardNews.js" defer></script>
+  <script src="src/components/TituloDinamico.js" defer></script>
 
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <div class="card_Left">
-        <span>By Raphael Moura</span>
-        <a href="">Darth Vader Contrata Devs</a>
-        <p>Darth Vader procura desenvolvedores e bla bla bla</p>
-      </div>
-        <div class="card_Right">
-          <img src="assets/styles/img/asset-vader.png">
-        </div>
-    </div>
+  <div class="app-root">
+    <card-news
+    autor = "Raphael"
+    title = "Aqui escrevo o titulo"
+    link-url = "www.google.com"
+    photo = "assets/styles/img/asset-vader.png"
+    content = "Aqui escrevo a descricao"
+    ></card-news>
   </div>
-  <card-news></card-news>
+    
 </body>
 </html>

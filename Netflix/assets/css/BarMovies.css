@@ -11,6 +11,9 @@
 
 .content .movieTopics {
   color: white;
+  box-sizing: border-box;
+  margin: 3vw 0;
+  padding: 0;
 }
 
 .categories {
